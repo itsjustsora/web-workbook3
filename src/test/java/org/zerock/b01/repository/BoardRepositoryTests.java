@@ -12,6 +12,7 @@ import org.zerock.b01.domain.Board;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.StringTokenizer;
 import java.util.stream.IntStream;
 
 @SpringBootTest
@@ -114,5 +115,6 @@ class BoardRepositoryTests {
         log.info("result.hasPrevious(): {}, result.hasNext: {}", result.hasPrevious(), result.hasNext());
 
         result.getContent().forEach(board -> log.info("board: {}", board));
+
     }
 }
