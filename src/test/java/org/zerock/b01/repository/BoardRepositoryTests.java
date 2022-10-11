@@ -12,7 +12,6 @@ import org.zerock.b01.domain.Board;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.StringTokenizer;
 import java.util.stream.IntStream;
 
 @SpringBootTest
